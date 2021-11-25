@@ -13,6 +13,7 @@
   .modal-content {
     position: relative; 
     background-color: white;
+    color: black;
     padding: 20px; 
     margin: auto; 
     width: 75%;  
