@@ -2,20 +2,32 @@ window.onload = function(){
 let modalBtn = document.getElementById("modal-btn")
 let modalBtn2 = document.getElementById("modal-btn2")
 
-let modal = document.querySelector(".modal")
-let closeBtn = document.querySelector(".close-btn")
+let modalG = document.querySelector(".modal-gallery")
+let modalF = document.querySelector(".modal-finance")
+
+let closeBtnF = document.querySelector(".close-btn-finance")
+let closeBtnG = document.querySelector(".close-btn-gallery")
+
 modalBtn.onclick = function(){
-  modal.style.display = "block"
+  modalF.style.display = "block"
 }
 modalBtn2.onclick = function(){
-    modal.style.display = "block"
+    modalG.style.display = "block"
   }
-closeBtn.onclick = function(){
-  modal.style.display = "none"
+
+
+closeBtnG.onclick = function(){
+modalG.style.display = "none"
 }
+
+closeBtnF.onclick = function(){
+modalF.style.display = "none"
+}
+
 window.onclick = function(e){
   if(e.target == modal){
     modal.style.display = "none"
   }
-}}
+}
+}
 
