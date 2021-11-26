@@ -174,3 +174,7 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+.IS-img{
+  max-height: 460px;
+}
