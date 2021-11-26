@@ -12,12 +12,12 @@
   }
   .modal-content {
     position: relative; 
-    background-color: white;
+    background-color: black;
     color: black;
     padding: 20px; 
     margin: auto; 
-    width: 75%;  
-    height: 70%; 
+    width: 100%;  
+    height: 75%; 
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -25,7 +25,9 @@
   }
   .close-btn {
     float: right; 
-    color: lightgray; 
+    margin-left: 5px;
+    margin-top: -15px;
+    color: white; 
     font-size: 24px;  
     font-weight: bold;
   }
@@ -55,7 +57,7 @@
   }
   
   .btn:hover {
-    background: #fe6625;
+    background: #a5a09f;
     background-image: linear-gradient(to bottom, #fe6625, #fb9334);
     text-decoration: none;
   }
@@ -76,4 +78,52 @@
 
 #about{
     background-color:#fe6625;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 100px;
+}
+.column{
+    flex: 25%;
+    max-width: 25%;
+}
+.img-hover-zoom{
+    height: auto;
+    overflow: hidden;
+    border: 5px solid #fe6625;
+}
+.img-hover-zoom img{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition:  transform .5s ease;
+}
+.img-hover-zoom:hover img{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.vertical-text {
+    background: black;
+    color: white;
+    font-size: 38px;
+    padding-left:1em;
+    display: inline-block;
+    vertical-align: middle;
 }
