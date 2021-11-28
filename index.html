@@ -1,192 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Video Assignment</title>
-<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-<script src="js/script.js"></script>
-
-<link rel="stylesheet" href="css/accordion.css">
-<link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="main">
-        <div class="title">TITLE</div>
-        <!--main page sliding animation-->
-        <div class="w-accor w-accor3" id="Accor3">
-            <ul class="clearfix">
-                <li>
-                    <div class="item clearfix">
-                        <div class="img_ar" id="about"></div>
-                        <div class="cont_ar">
-                            <div class="left_ar"><h3>About us</h3></div>
-                            <div class="right_ar">
-                                <div class="dec_ar">
-                                    <div class="acr_p">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <a href="#"></a>
-                </li>
-                <li>
-                    <div class="item clearfix">
-                        <div class="img_ar" id="finance"></div>
-                        <div class="cont_ar">
-                            <div class="left_ar"><h3>Financial Statements</h3></div>
-                            <div class="right_ar">
-                                <button class="btn" id="modal-btn"> View Statements</button>
-
-                                <div class="dec_ar">
-                                    <div class="acr_p">Here is the Income Statement of Bill's Store. Let's see how he earns money!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="modal-finance">
-                            <div class="modal-header">
-                              <span class="close-btn-finance">&times;</span>
-                              <h1>Read Bill's Store Income Statement</h1>
-                            </div>
-                            <div class="modal-content-finance">
-                              <img class = "IS-img" src="image/IS.jpg" alt="">
-                            </div>
-                            <!-- <div class="modal-footer">
-                              <h2>I am the Footer</h2>
-                            </div> -->
-                          </div>
-                </li>
-                <li>
-                    <div class="item clearfix">
-                        <div class="img_ar"><img src="image/b3.png"/></div>
-                        <div class="cont_ar">
-                            <div class="left_ar"><h3>Film</h3></div>
-                            <div class="right_ar">
-                                <div class="dec_ar">
-                                    <div class="acr_p">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <a href="#"></a>
-                </li>
-                <li>
-                    <div class="item clearfix" >
-                        <div class="img_ar" id="bts"></div>
-
-                        <div class="cont_ar">
-
-                            <div class="left_ar"><h3>Behind The Scenes</h3></div>
-
-                            <div class="right_ar">
-                                <button class="btn" id="modal-btn2"> Gallery</button>
-
-                                <div class="dec_ar">
-
-                                    <div class="acr_p">
-                                        Here lies photos and souvenirs of Bill's story. Take a trip down memory lane :)
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="modal-gallery">
-                            
-                            <div class="modal-content-gallery">
-                                <div class="modal-header">
-
-                                    <span class="close-btn-gallery">&times;</span>
-                                    
-                                  </div>
-                                <!-- Photo Grid -->
-    <div class="row">
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="image/img1.jpeg" style="width:100%" alt="">
-            </div>
-            <div class="img-hover-zoom">
-                <img src="image/img2.jpeg" style="width:100%" alt="">
-            </div>
-            <div class="img-hover-zoom">
-                <img src="image/img3.jpg" style="width:100%" alt="">
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="image/img4.jpg" style="width:100%" alt="">
-            </div>
-            <div class="img-hover-zoom">
-                <img src="image/img5.jpg" style="width:100%" alt="">
-            </div>
-            <div class="img-hover-zoom">
-                <img src="image/img6.jpg" style="width:100%" alt="">
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="image/img7.jpg" style="width:100%" alt="">
-            </div>
-            <div class="img-hover-zoom">
-                <img src="image/img8.jpg" style="width:100%" alt="">
-            </div>
-            <div class="img-hover-zoom">
-                <img src="image/img9.jpg" style="width:100%" alt="">
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="image/img10.jpg" style="width:100%" alt="">
-            </div>
-            <div class="vertical-text">
-                G<br />A<br />L<br />L<br />E<br />R<br />Y
-        
-            </div>
-        </div>
-
+    <div class="title-container">
+        <h1>Title</h1>
     </div>
-                              <!-- <p>this is the text inside the modal</p> -->
-                            </div>
-                            
-                          </div>
-                        <a href="#"></a>
-                </li>
-                <li>
-                    <div class="item clearfix">
-                        <div class="img_ar" id="store" ></div>
-                        <div class="cont_ar">
-                            <div class="left_ar"><h3>Online Store</h3></div>
-                            <div class="right_ar">
-                                <div class="dec_ar">
-                                    <a href="store.html"><div class="acr_p">Click to shop online!</div></a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <a href="#"></a>
-                </li>
-            </ul>
-        </div>
-        <script type="text/javascript">
-        $(function(){
-            accor($('#Accor3'),'50%',500,false,true);
-        });
-        </script>
-        <!--main page sliding animation--> 
+    <div class="botton-container">
+        <a href="home.html">
+            CLICK ME
+        </a>
     </div>
-    <script src="js/accordion.js"></script> 
-    <!--phone-->
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <script src="js/swiper.min.js"></script>    
 </body>
+</html>
