@@ -8,7 +8,7 @@
   
   /* Text Colors */
   body{
-    background-image: url(image/Poster.png);
+    background-image: url(../image/Poster.png);
     backdrop-filter: alpha(opacity=40);;
     background-color: #292E31;
     background-blend-mode: overlay;
