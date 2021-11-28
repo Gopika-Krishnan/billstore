@@ -8,7 +8,12 @@
   
   /* Text Colors */
   body{
-    background-color: #414a4f;
+    background-image: url(image/Poster.png);
+    backdrop-filter: alpha(opacity=40);;
+    background-color: #292E31;
+    background-blend-mode: overlay;
+    
+    
   }
 
   div{
@@ -114,12 +119,12 @@
   font-size: 3.0em;
   color: white;
   margin-top:10%;
-  letter-spacing: 0.7em;
+  letter-spacing: 0.2em;
 }
 
  @-webkit-keyframes tracking-in-contract-bck {
   0% {
-    letter-spacing: 4em;
+    letter-spacing: 1.5em;
     -webkit-transform: translateZ(400px);
             transform: translateZ(400px);
     opacity: 0;
@@ -135,7 +140,7 @@
 }
 @keyframes tracking-in-contract-bck {
   0% {
-    letter-spacing: 4em;
+    letter-spacing: 1.5em;
     -webkit-transform: translateZ(400px);
             transform: translateZ(400px);
     opacity: 0;
@@ -150,10 +155,10 @@
   }
 }
 
-.botton-container{
+.button-container{
   width: 10%;
   height: 60px;
-  margin-left: 45%;
+  margin-left: 42%;
   margin-top: 20%;
   background-color: grey;
   align-items: center;
@@ -164,8 +169,8 @@
   animation-name: scale-in-center;
   animation-duration: 1s;
 }
-.botton-container:hover{
-  background-color: black;
+.button-container:hover{
+  background-color: #167070;
 }
 
  @-webkit-keyframes scale-in-center {
@@ -192,3 +197,4 @@
     opacity: 1;
   }
 }
+
