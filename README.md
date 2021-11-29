@@ -1,7 +1,5 @@
-# billstore
-
 # **Project Name**
-Dorm Store
+**Dorm Store**
 
 # **Project Description**: 
 
