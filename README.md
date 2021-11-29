@@ -8,12 +8,12 @@ what is the project, what is the overall concept and theme, and what kind of exp
 # **Process**: 
 We shot the video all together, and we decide to give the work of editing to one person, and website coding to other two members. 
 
+**Movie**
+
 The process started with a brainstorming meeting to figure out what would be the format and story of our film. We then wrote the main ideas and scenes down, and each one of us took responsibility to write the script for a specific scene.
 The whole shooting was done in  2 different times, one at night for the convenience store scenes and one the next day with all the other scenes. We filmed with a personal camera (Sony A6000) and a basic kit lens (16-55). ​ It was all shot in 4K, making it easier to zoom in on specific scenes in post, without losing definition. We also used a personal lighting equipment that was attached to the camera.
 The editing was done using Final Cut Pro, as I was more used to the command keys and overall software. The only decent editing computer  that had Final Cut installed was a Mac Pro in the library, so I used it for the editing. Something that was new for me while editing was doing a scene with stop motion, as I've never done it before. As it wasnt my computer, I used an external hard drive for the editing and saved the FCP library in it.
 
-
-**Movie Editing**
 
 **Starting Page**
 
