@@ -3,7 +3,7 @@
 
 # **Project Description**: 
 
-what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
+The Story starts from one day when Mike wants to drink a cup of milkshake but only finds himself broken. He only got money in his campus card, which limits the things that he could purchase. He realizes there is a chance to turn the money in campus cards to cash and earn more money. And that is through reselling things sold in day-mart after 10 pm when the store is closed. There are students who want to purchase things after 10 pm but they have nowhere to buy them. Therefore comes the “Dorm Store”. Mike opens a dorm store by purchasing things in the campus store and reselling it at night at higher prices. In the end, Mike earns enough money and purchase the campus store, drinking the milkshake he can not afford in the past. And our video shows the whole process of building the business empire.
 
 # **Process**: 
 We shot the video all together, and we decide to give the work of editing to one person, and website coding to other two members. 
@@ -22,7 +22,7 @@ The landing page of the website used CSS animations with effect on the line spac
 
 **Home Page**
 
-For the home page, we have an accordion-like menu of options. We wanted to test around with different types of layout and this looked like a really cool option. The menu options, when clicked on, will expand to reveal more information. 
+For the home page, we have an accordion-like menu of options. We wanted to test around with different types of layout and this looked like a really cool option. The menu options, when clicked on, will expand to reveal more information, and this is mainly done through transfition feature.
 
 For the financial statements, film, and gallery, we used modal windows. So, when clicking on the button, you won’t be redirected to a new page, but rather new content will show up on the present page itself and there’s an option to close the window to reveal the original home page. We used Jquery for this where the display was toggled between ‘block’ and ‘hidden’ according to the buttons pressed by the user. 
 
@@ -37,7 +37,7 @@ The ‘About Us’ page takes you to the Github page of the website.
 The gallery used a CSS animation effect too, when you hover over the images, the images would slowly zoom in, but it gives the effect of water ripples. And there are thick border lines in the gallery with orange color to keep with the palette of the home page. The word ‘Gallery’ is written in vertical alignment to keep in theme with the aesthetics of the gallery page.
 
 **Online Store**
-
+This page uses css hover to do the interactions, and if the website could be linked to database, an interactive real online store would be really interesting.
 
 # **Reflection/Evaluation**: 
 
