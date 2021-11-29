@@ -8,6 +8,11 @@ what is the project, what is the overall concept and theme, and what kind of exp
 # **Process**: 
 We shot the video all together, and we decide to give the work of editing to one person, and website coding to other two members. 
 
+The process started with a brainstorming meeting to figure out what would be the format and story of our film. We then wrote the main ideas and scenes down, and each one of us took responsibility to write the script for a specific scene.
+The whole shooting was done in  2 different times, one at night for the convenience store scenes and one the next day with all the other scenes. We filmed with a personal camera (Sony A6000) and a basic kit lens (16-55). ​ It was all shot in 4K, making it easier to zoom in on specific scenes in post, without losing definition. We also used a personal lighting equipment that was attached to the camera.
+The editing was done using Final Cut Pro, as I was more used to the command keys and overall software. The only decent editing computer  that had Final Cut installed was a Mac Pro in the library, so I used it for the editing. Something that was new for me while editing was doing a scene with stop motion, as I've never done it before. As it wasnt my computer, I used an external hard drive for the editing and saved the FCP library in it.
+
+
 **Movie Editing**
 
 **Starting Page**
@@ -35,5 +40,13 @@ The gallery used a CSS animation effect too, when you hover over the images, the
 
 
 # **Reflection/Evaluation**: 
+
+**Video Reflection**
+
+In the beginning the idea of the sequence with the music felt a bit ambitious and we didn't know if we would be able to achieve an interesting and pro-like scene. We had to shoot some specific scenes a couple times to be able to show the repetitive actions in the sequence. This felt intimidating as we didnt know if the editing would be able to showcase this well, but it did and we are very happy with the final result.
+Another aspect that we were not sure if would work well was making sure that the sequence would be able to show the story flowing and the passing of time, as there wouldn't be any audio other than the music to guide the story and what's going on. But in the end we believe the sequence was able to have a clear and comprehensible narrative that made the video more fun then if we developed the story in a narrative/dialogue structure.
+
+
+**Overall**
 
 This project was so much fun to work on for all of us. The shooting fo the film sequences were very enjoyable as well as a good learning experince for us in using film equipment. We had a solid storyline set from the beginning which made the shooting and editing a bit more of a smoother process. For the website, we worked on different ways to present the information like using accordian-like menu, putting in CSS animations as well as using modal windows. Since we divided the task of editing and coding among ourselves, it was easy for us to do our parts without worrying about the others. And integrating all of it was easy too! In a nutshell, telling mike's success story through film was a great experience for us!
